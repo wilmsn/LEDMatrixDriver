@@ -1,4 +1,4 @@
-#include <LEDMatrixDriver.hpp>
+#include <LEDMatrixDriver.h>
 
 // This draw a moving point on your LED matrix and use the scrolling feature of the hardware SPI driver Library by Bartosz Bielawski.
 // Example written 19.06.2017 by Marko Oette, www.oette.info 

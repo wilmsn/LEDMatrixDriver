@@ -1,4 +1,4 @@
-#include <LEDMatrixDriver.hpp>
+#include <LEDMatrixDriver.h>
 
 // This sketch how to use 7-segment displays with the LEDMatrixDriver library.
 // Example written 2017-09-30 by Søren Thing, https://github.com/Sthing.

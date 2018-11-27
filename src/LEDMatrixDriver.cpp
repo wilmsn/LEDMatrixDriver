@@ -5,7 +5,7 @@
  *      Author: Bartosz Bielawski
  */
 
-#include "LEDMatrixDriver.hpp"
+#include "LEDMatrixDriver.h"
 #include <Arduino.h>
 
 LEDMatrixDriver::LEDMatrixDriver(uint8_t N, uint8_t ssPin, uint8_t* frameBuffer_):

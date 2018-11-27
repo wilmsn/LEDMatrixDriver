@@ -1,4 +1,4 @@
-#include <LEDMatrixDriver.hpp>
+#include <LEDMatrixDriver.h>
 
 // This sketch will 'flood fill' your LED matrix using the hardware SPI driver Library by Bartosz Bielawski.
 // Example written 16.06.2017 by Marko Oette, www.oette.info 

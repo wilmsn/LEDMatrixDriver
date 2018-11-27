@@ -1,4 +1,4 @@
-#include <LEDMatrixDriver.hpp>
+#include <LEDMatrixDriver.h>
 
 // This draw a moving sprite on your LED matrix using the hardware SPI driver Library by Bartosz Bielawski.
 // Example written 16.06.2017 by Marko Oette, www.oette.info 
@@ -10,7 +10,7 @@ const uint8_t LEDMATRIX_CS_PIN = 9;
 // Define LED Matrix dimensions (0-n) - eg: 32x8 = 31x7
 const int LEDMATRIX_WIDTH = 31;  
 const int LEDMATRIX_HEIGHT = 7;
-const int LEDMATRIX_SEGMENTS = 1;
+const int LEDMATRIX_SEGMENTS = 4;
 
 // The LEDMatrixDriver class instance
 LEDMatrixDriver lmd(LEDMATRIX_SEGMENTS, LEDMATRIX_CS_PIN);
